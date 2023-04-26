@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Registration App</string>
+    <string name="n1">Full Name  </string>
+    <string name="p1">Password:</string>
+    <string name="l1">Login:</string>
+    <string name="c1">Cancel:</string>
+    <string name="si1">School ID:</string>
+    <string name="s1">School:</string>
+    <string name="e1">E-Mail:</string>
+    <string name="p1">Phone Number:</string>
+</resources>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:background2="@drawable/pngtree_the_sky_is_filled_with_gray_clouds_that_are_about_to_png_image_6539908"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="33dp"
+        android:text="Registration Form"
+        tools:layout_conversion_absoluteHeight="44dp"
+        tools:layout_editor_absoluteY="300dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:textColor="#B2FFFF"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Welcome to adventure learning club"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_editor_absoluteY="344dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:textColor="#B2FFFF"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        app:srcCompat="@drawable/_31460_sf2qgo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="@string/n1"
+                android:textColor="#00CED1"
+                android:textFontWeight="@integer/material_motion_duration_medium_2"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColorHint="#00CED1"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="321dp"
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="392dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="11"
+                    android:backgroundTint="#BA1E1E"
+                    android:hint="First Name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    tools:layout_conversion_absoluteHeight="24dp"
+                    tools:layout_conversion_absoluteWidth="110dp"
+                    tools:layout_editor_absoluteX="91dp"
+                    tools:layout_editor_absoluteY="398dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="11"
+                android:textColorHint="#00CED1"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="321dp"
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="392dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="145dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="11"
+                    android:backgroundTint="#BA1E1E"
+                    android:hint="Last Name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    tools:layout_conversion_absoluteHeight="24dp"
+                    tools:layout_conversion_absoluteWidth="110dp"
+                    tools:layout_editor_absoluteX="91dp"
+                    tools:layout_editor_absoluteY="398dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textColor="#00CED1"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#00CED1"
+                android:text="Male"
+                android:textColor="#00CED1" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female"
+                android:textColor="#00CED1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.9"
+                android:text="@string/si1"
+                android:textColor="#00CED1"
+                android:textFontWeight="@integer/material_motion_duration_medium_2"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:text="@string/s1"
+                android:textColor="#00CED1"
+                android:textFontWeight="@integer/material_motion_duration_medium_2"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1.7"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.2"
+                android:text="@string/e1"
+                android:textColor="#00CED1"
+                android:textFontWeight="@integer/material_motion_duration_medium_2"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:text="@string/p1"
+                android:textColor="#00CED1"
+                android:textFontWeight="@integer/material_motion_duration_medium_2"
+                android:textSize="20dp"
+                tools:layout_conversion_absoluteHeight="45dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="392dp" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.3"
+                android:ems="10"
+                android:inputType="text"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
